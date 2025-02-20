@@ -1,0 +1,23 @@
+package calculo.java;
+
+import java.util.Scanner;
+
+public class AmaisB {
+
+	 public static void main(String[ ]args) {
+		Scanner numero = new Scanner(System.in);
+		
+		System.out.print("digite um numero: ");
+		
+		int a = numero.nextInt();
+		
+		System.out.print("digite outro numero: ");
+		int b = numero.nextInt();
+		
+		
+		int c = a + b;
+		System.out.print("a soma de A + B é: " + c);	 
+		
+		numero.close();
+	 }
+}
